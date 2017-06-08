@@ -18,12 +18,8 @@ h6 {
 }
 
 .social {
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 10px;
-}
-
-.card a {
-    color: black !important;
 }
 
 .statement a:hover {
@@ -32,41 +28,50 @@ h6 {
 }
 
 .intro {
-    margin-top: 10em;
     margin-bottom: 10em !important;
 }
 
 .intro-links {
-    margin-top: 10em;
+    margin-top: 2em;
     font-size: 18px;
-    text-transform: uppercase;
     letter-spacing: .1em;
-}
-
-.intro-links a {
-    margin-left: 2em;
-    padding-left: .5em;
-    padding-right: .5em;
+    text-transform: uppercase;
 }
 
 .intro-links a,
 .resume-links a {
     color: black;
+    margin-left: 1em;
 }
 
-.intro-links a:hover,
+.nav:hover,
 .resume-links a:hover {
     background-color: #f4ff81;
 }
 
-.see-more {
-    text-transform: uppercase;
+.fa:hover {
+    color: #80deea;
+    background-color: #f5f5f5 !important;
 }
 
-.coming-soon {
-    align-content: center;
+.brand {
+    margin-top: 10em;
 }
 
-.coming-soon-page {
-    background-color: white;
+.education {
+    margin-bottom: 7em;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project {
+    max-width: 30%;
+}
+
+.inspiring img {
+    width: 100%;
 }
