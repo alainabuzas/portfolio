@@ -13,8 +13,9 @@ h6 {
     font-size: 1.1em !important;
 }
 
+a,
 .fa {
-    color: black;
+    color: #000;
 }
 
 .social {
@@ -23,8 +24,8 @@ h6 {
 }
 
 .statement a:hover {
-    background-color: black !important;
-    color: white !important;
+    background-color: #000 !important;
+    color: #fff !important;
 }
 
 .intro {
@@ -40,12 +41,12 @@ h6 {
 
 .intro-links a,
 .resume-links a {
-    color: black;
     margin-left: 1em;
 }
 
 .nav:hover,
-.resume-links a:hover {
+.resume-links a:hover,
+.work-types a:hover {
     background-color: #f4ff81;
 }
 
@@ -62,10 +63,28 @@ h6 {
     margin-bottom: 7em;
 }
 
+.skills {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.skills h4{
+    margin-bottom: 1em;
+}
+
+.work-types ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 .projects {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project {
