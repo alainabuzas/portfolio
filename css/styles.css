@@ -122,14 +122,26 @@ a,
 
 .collapsible-body {
     background-color: #fff;
+    font-size: .9em;
 }
 
+.news-projects {
+    justify-content: space-between;
+    max-width: 65%;
+}
+
+.news-project {
+    max-width: 46.5%;
+}
 
 @media only screen and (max-width: 480px) {
-    .project {
+    .project,
+    .news-project,
+    .news-projects {
         min-width: 100%;
         margin: 0;
         margin-bottom: 3em;
         padding: 0;
     }
+
 }
