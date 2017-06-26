@@ -1,5 +1,6 @@
 body {
     background-color: #f5f5f5;
+    font-family: 'Lato', sans-serif;
 }
 
 h2,
@@ -46,13 +47,13 @@ a,
 
 .nav:hover,
 .resume-links a:hover,
-.work-types a:hover {
+.work-types a:hover,
+.down:hover {
     background-color: #f4ff81;
 }
 
 .fa:hover {
     color: #80deea;
-    background-color: #f5f5f5 !important;
 }
 
 .brand {
@@ -95,7 +96,40 @@ a,
     width: 100%;
 }
 
-.project-info .fa {
-    letter-spacing: 1em;
+
+.project-links .fa {
     font-size: 1.5em;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+
+.project-links {
+    text-align: right;
+}
+
+.collapsible {
+    border-style: none;
+    box-shadow: none;
+}
+
+.collapsible-header {
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+
+.collapsible-body {
+    background-color: #fff;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .project {
+        min-width: 100%;
+        margin: 0;
+        margin-bottom: 3em;
+        padding: 0;
+    }
 }
