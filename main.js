@@ -1,3 +1,4 @@
 $(document).ready(function(){
-   $('.carousel').carousel();
+    $('.carousel').carousel({fullWidth: true});
+    $('.carousel-slider').carousel({fullWidth: true});
 });
