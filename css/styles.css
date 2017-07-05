@@ -92,10 +92,14 @@ a,
     max-width: 30%;
 }
 
-.project img {
+.project img,
+.wedding-project img {
     width: 100%;
 }
 
+.wedding-project {
+    width: 100%;
+}
 
 .project-links .fa {
     font-size: 1.5em;
@@ -125,13 +129,19 @@ a,
     font-size: .9em;
 }
 
-.news-projects {
+.news-projects,
+.web-design-projects {
     justify-content: space-between;
     max-width: 65%;
 }
 
-.news-project {
+.news-project,
+.web-design  {
     max-width: 46.5%;
+}
+
+.divider {
+    margin-top: 1em;
 }
 
 @media only screen and (max-width: 480px) {
