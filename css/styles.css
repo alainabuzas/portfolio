@@ -93,15 +93,12 @@ a,
 }
 
 .project {
-    max-width: 300px;
+    width: 300px;
+    margin-top: 3em;
 }
 
 .project img,
 .wedding-project img {
-    width: 100%;
-}
-
-.wedding-project {
     width: 100%;
 }
 
@@ -144,6 +141,16 @@ a,
 
 .divider {
     margin-top: 1em;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #000;
+    color: #000;
+}
+
+.carousel .indicators .indicator-item {
+    background-color: #000;
+    color: #000;
 }
 
 @media only screen and (max-width: 480px) {
